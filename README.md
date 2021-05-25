@@ -1,2 +1,2 @@
 # tilt-visual
-tiltvisual.com
+tiltvisual
