@@ -5,3 +5,202 @@ body {
     background-color: #000000;
 
 }
+
+/* nav bar */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ .logo {
+     float: left;
+     width: 194px;
+     height: 194px;
+     margin: 0 305px 36px 0;
+ }
+
+ nav {
+     float: right;
+ }
+
+ nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+
+ }
+
+ nav li {
+     display: inline-block;
+     margin-left: 76px;
+     padding-top: 25px;
+
+     position: relative;
+ }
+
+ nav a {
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-family: sans-serif;
+     font-size: 14px;
+ }
+
+ a{
+    color: silver;
+}
+nav a:hover{
+    color:silver;
+}
+
+
+/* About page */
+
+ p {
+    width: 563px;
+    height: 84px;
+    margin: 36px 14px 58px 97px;
+    font-family: NotoSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #ffffff;
+ }
+
+ p2{
+    width: 563px;
+    height: 252px;
+    margin: 47.5px 14px 0 97px;
+    font-family: NotoSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #ffffff;
+ }
+
+
+/* contributor page */
+
+ h1{
+    width: 367px;
+    height: 24px;
+    margin: 36px 16px 77px 116px;
+    font-family: NotoSans;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+ }
+ h2{
+    width: 1127px;
+    height: 168px;
+    margin: 77px 14px 0 116px;
+    font-family: NotoSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #ffffff;
+ }
+
+
+/* embedded vids*/
+
+.iframe-container{
+    width: 658px;
+    height: 368px;
+    margin: 71px 112px 17px 158px;
+    padding: 0 40px 200px;
+}
+
+
+
+
+
+
+
+/* contact page */
+* {
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+*:focus {
+	outline: 0;
+}
+
+
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: #000000;
+	border-radius: 4px;
+}
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: solid 2px #979797;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+input[type=submit] {
+	background: #000000;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 1;
+	padding: 12px 24px;
+	border-radius: 5px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+input[type=submit]:focus {
+	background: #868b87;
+	color: rgb(0, 0, 0);
+}
+
+input[type=submit]:hover {
+	background: #a9adaf;
+}
+
+.center {
+	text-align: left;
+}
